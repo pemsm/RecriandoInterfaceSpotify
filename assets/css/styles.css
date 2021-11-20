@@ -1,0 +1,43 @@
+:root {
+    --cor-bg-primary: #e4e4e4;
+    --cor-bg-error: #fdccd2;
+    --cor-white: #ffffff;
+    --cor-blue: #1d75de;
+    --cor-black: black;
+    --cor-arrow-blue: #07d3f7;
+    --cor-error: #a9071d;
+}
+
+header{
+    background-color: var(--cor-black);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-header{
+    padding: 1.5rem;
+}
+
+.logo-header img{
+    height: 2.5rem;
+}
+
+.options-header{
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.options-header a{
+    text-decoration: none;
+    color: var(--cor-white);
+    font-size: 1.2rem;
+    margin: 1.1rem;
+}
+
+.options-header a:hover{
+    color: var(--cor-arrow-blue);
+}
